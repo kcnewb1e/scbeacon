@@ -174,7 +174,7 @@ Magic bytes: `\xDE\xAD\xC0\xDE`
 ![scbeacon demo](scbeacon.png)
 
 > Shellcode (`calc.exe`) berhasil dieksekusi dari dalam `payload.png`
-> saat Windows Defender aktif.
+> saat Windows Defender dan Avira AV aktif.
 
 ---
 
