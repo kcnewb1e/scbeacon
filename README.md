@@ -176,6 +176,18 @@ Magic bytes: `\xDE\xAD\xC0\xDE`
 > Shellcode (`calc.exe`) berhasil dieksekusi dari dalam `payload.png`
 > saat Windows Defender dan Avira AV aktif.
 
+### Fake Windows Update Demo 
+
+![wind uptoad demo](fake-windows-update.png)
+
+> Shellcode dari Msfvenom atau bisa dari Adaptix C2 
+
+Adaptix Console 
+
+![wind uptoad demo](adaptix-c2.png)
+
+> Ekesekusi berhasil dan Windows Defender bypassed 
+
 ---
 
 ## Notes
@@ -183,3 +195,4 @@ Magic bytes: `\xDE\xAD\xC0\xDE`
 - Output **harus PNG** (lossless) — format lossy (JPEG, WebP) akan merusak LSB.
 - Semakin besar cover image, semakin kecil persentase pemakaian dan semakin tidak mencurigakan.
 - Password tidak disimpan di dalam gambar — hanya salt dan nonce yang disertakan.
+- Untuk social engineering Anda dapat mengganti icon executable file serta publisher, dan melakukan proteksi tambahan supaya password dan shellcode lebih stealth aman 
